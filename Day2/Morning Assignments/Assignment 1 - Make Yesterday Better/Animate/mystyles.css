@@ -1,0 +1,73 @@
+html 
+{
+  font: 100%/1.5 "Roboto", Verdana, sans-serif;
+  color: #3d464d;
+  background-color: #fff;
+  width: 100%;
+  overflow: hidden-x;
+  text-align: center;
+}
+
+.container {
+  padding: 1.5rem;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1;
+  letter-spacing: -.05em;
+  color:#c93800;
+}
+  .mega {
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+
+  html 
+   {
+    height: 100%;
+  }
+
+  html:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+  }
+
+ body 
+ {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 38rem;
+  }
+
+a {color: inherit;text-decoration: underline;}
+a:hover { color: #f35626;}
+
+.AnimateButton,.selectOptions
+{
+  padding: .75rem;
+  margin: .375rem;
+
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+.AnimateButton 
+{
+  border: 2px solid #f35626;
+  line-height: 1.375;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-weight: 700;
+  color: #f35626;
+}
+
+p, hr, form {
+  margin-bottom: 1.5rem;
+}
