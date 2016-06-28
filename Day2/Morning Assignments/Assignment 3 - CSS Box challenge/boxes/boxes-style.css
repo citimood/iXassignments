@@ -1,0 +1,48 @@
+* 
+{
+	box-sizing: border-box;
+	transition: .5s all ease;
+}
+
+.bigBox > div
+{
+	border: 2px solid green;
+}
+
+.bigBox > div:nth-last-child(2),.bigBox > div:nth-last-child(1)
+{
+	background-color:#8542f1;
+}
+
+div > div > div
+{
+	background-color:red;
+    border-radius: 50%;
+	height:100px;
+	width:100px;
+	
+}
+
+
+
+input[type=checkbox]:checked ~ .bigBox > div  {
+   display:flex;
+   
+}
+
+.bigBox 
+{
+	background: none;
+	width: 100%;
+}
+
+.bigBox > div 
+{
+	margin: 2%;
+	background: cornflowerblue;
+	padding: 5%;
+	display: inline-block;
+	width: 40%;
+	
+	
+}
