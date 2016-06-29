@@ -1,0 +1,53 @@
+
+form.container
+{
+	padding:50px 0 90px;min-height:100%;
+	background:radial-gradient(at top right, #FFD500, #FF9100 37%)
+}
+
+h1,p,div{margin:0;padding:0;box-sizing:border-box}
+body,html{height:100%;font-family:"Open Sans",sans-serif;color:#fff}
+div,article,form,header,footer,nav,li,p,form{position:relative}ol,ul{list-style:none}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,form{display:block}
+form{min-width:815px}
+input,textarea,button{border:none;font-family:"Open Sans",sans-serif;border-radius:2px;color:#fff;font-size:16px;box-sizing:border-box;display:block}
+body{line-height:1;background:#FF9100}
+footer{padding-bottom:30px}
+footer p{color:white;font-size:14px}
+a.buttonLink{text-decoration:none}
+
+.clearfix{zoom:1}.clearfix:before,.clearfix:after{content:"\0020";display:block;height:0;overflow:hidden}
+.clearfix:after{clear:both}::selection{background:#FF6A11;color:#fff;text-shadow:none}
+.textCenter{text-align:center}
+.general{width:815px;padding:0 40px;margin:0 auto}
+.left{float:left}
+
+.right{float:right}
+.lightText{color:white}
+.darkText{color:#fff}
+.bold{font-weight:bold}a{text-decoration:underline;color:white}
+.button{background:white;color:#44BCC9;border-radius:2px;padding:18px 30px 19px;width:220px;font-size:22px;cursor:pointer;text-align:center;}
+.button:hover{background:#44BCC9;color:white}
+.image{ width:300px}
+.image img{width:100%}
+.setText{width:50%;padding-top:110px;padding-left:80px}
+.setText h1{font-size:50px}*/
+.setText p{font-size:21px;line-height:1.3} 
+.getLoad{margin-top:40px}
+.getLoad.bottom{margin-left:auto;margin-right:auto}
+.fieldInput{background:none;color:white;border:2px solid white;font-size:18px;padding:8px 12px;width:220px;margin-top:40px;text-align:center;}
+.fieldInput:focus{background:white;border-color:#44BCC9;color:#44BCC9}
+.link{margin-top:5px}
+.valuePropContain{float:left;width:33%;text-align:center}.valuePropContain img{width:220px}
+.valuePropContain p{font-size:18px;width:220px;line-height:1.3;margin:10px auto}
+
+@media screen and (max-device-width: 480px){.valuePropContain{float:none;width:100%}
+
+.valuePropContain img{width:90%;margin-top:20px}.valuePropContain p{font-size:18px;margin-top:10px;margin-bottom:30px;width:90%}}
+.sectionInner{height:1px;background:white;margin:40px auto;width:400px}
+.text{text-align:center;padding:0 10px;font-size:18px;line-height:1.4;font-weight:bold}
+
+#info{text-align:center;position:absolute;bottom:20px;width:100%;cursor:pointer}
+
+
