@@ -1,0 +1,83 @@
+
+
+
+
+.logo
+{
+	background: url(logo.png) no-repeat;
+    height: 120px;
+    margin: 0;
+    position: absolute;
+    top: -1px;
+    width: 100px;
+	left:75px;
+ }
+ 
+ .bolderHeader
+ {
+	color: #fff;
+    font-family:monospace;
+    font-size: 25px;
+    font-weight: normal;
+    letter-spacing:0px;
+    line-height: 38px;
+    padding: 0 10px;
+	margin:20px;
+	right:800px;
+	font-weight:bold;
+	position:absolute;
+    display:block;
+ }
+
+ 
+
+
+
+ul 
+{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;	
+	height:70px;
+	
+}
+
+li {
+    float: left;
+	
+}
+
+.container
+{
+  box-sizing: border-box;
+    word-wrap: break-word;
+	border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+*,html,body{
+    margin:0;
+    padding:0;  
+}
+
+@media(max-width:1348px)/*769px)*/
+{
+	.container li
+	{
+		width:500px;
+	}
+	
+	ul
+	{
+		height:100%;
+	}
+		
+	
+}
+
+
