@@ -1,0 +1,282 @@
+
+body
+{
+	/* background-color:#00ff7f; */
+	 background-color:black;
+}
+ul
+{
+	list-style-type:none;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img 
+  {
+   	  border-radius: 10px;
+	  margin:5px;
+	  height:400px;
+	  width:99%;
+	  padding-left:5px;
+	  box-shadow: 5px 5px 5px #fff;/*rgba(0,0,0,08)*/;
+	 
+  }
+  
+.nameHolder
+{
+	height:70px;
+	border-radius: 10px;
+	background-color:#19ff8b;/*#00ce68;*/
+	border:2px solid black;/*#008141;*/
+	box-shadow: 5px 5px 5px  #fff;/*rgba(0,0,0,08)*/;
+	
+}
+ 
+.name 
+{
+	color:#fff;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: Helvetica;
+	text-shadow: 5px 5px 5px rgba(0,0,0,08);
+}
+.name
+{
+  text-align: center;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.option 
+{
+	color:#fff;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: Helvetica;
+	text-shadow: 5px 5px 5px rgba(0,0,0,08);
+}
+.option
+{
+  text-align: center;
+}
+
+.profilePic
+{
+	display:block;
+	position:absolute;
+	top:330px;
+	left:190px;
+	height:150px;
+	width:150px;
+	background-color:red;
+	border:5px solid #008141;
+	border-radius: 10px;
+	background-image: url("images/skhumbuzo.jpg");
+	box-shadow: 5px 5px 5px rgba(0,0,0,08);
+	background-size: 150px 150px;
+    background-repeat: no-repeat;
+	
+}
+
+
+/*=========================================================================================================================================================*/
+
+
+
+ul
+{
+	
+}
+.options li
+{
+    height: 20px;
+    background: red;
+    box-shadow: 1px 1px 2px  #fff;/*rgba(0,0,0,0.2);*/
+    margin: 5px;
+    transition: all 600ms linear;
+}
+
+.options li:hover
+{
+	font-size: 30px;
+	height:50px;
+	border-radius: 10px;
+	background-color:#00ce68;
+	border:5px solid #008141;
+	box-shadow: 5px 5px 5px  #fff;/*rgba(0,0,0,08)*/;   
+    transform: scale(1.1);  
+}
+
+.options li  #one:hover  .content
+{
+	display:block;
+	background-image: url("images/pi.png");
+	
+}
+
+.options li  #two:hover  .content
+{
+	display:block;
+	background-image: url("images/education.png");
+}
+
+.options li  #three:hover  .content
+{
+	display:block;
+	background-image: url("images/le.png");
+	
+}
+
+.options li  #four:hover  .content
+{
+	display:block;
+	background-image: url("images/rpe.png");
+}
+
+.options li  #five:hover  .content
+{
+	display:block;
+	background-image: url("images/la.png");
+	
+}
+
+.options li  #six:hover  .content
+{
+	display:block;
+	background-image: url("images/aa.png");
+}
+
+.options li  #seven:hover  .content
+{
+	display:block;
+	background-image: url("images/we.png");
+	
+}
+
+.options li  #eight:hover  .content
+{
+	display:block;
+	background-image: url("images/education.png");
+}
+
+
+.options li  #nine:hover  .content
+{
+	display:block;
+	background-image: url("images/pi.png");
+	
+}
+
+
+.contentBase
+{
+	position:relative;
+	top:-10px;
+	height:500px;
+/* 	background-color:#008141 ;/*#00ff7f;*/
+    border-radius: 10px;
+	margin:5px;
+	/* border:5px solid #fff; *//*#008141;*/
+	box-shadow: 5px 5px 5px  #fff;/*rgba(0,0,0,08)*/;
+	
+}
+a{
+	text-decoration:none;
+	color:#202020;
+}
+
+.footer 
+{
+	
+	border-radius: 10px;
+	top:-10px;
+	background: #008141;/* #5db09d;
+	margin: 1px;
+	/* border-radius: 10px; */
+	box-shadow: 5px 5px 5px  #fff;/*rgba(0,0,0,08)*/;
+	font-family: "Roboto", sans-serif;
+	font-size: 11px;
+	color:#fff;
+	
+}
+
+.welcome
+{
+	border-radius: 10px;
+	padding:10px;
+	margin:10px;
+	border:10px solid #00e572;
+	box-shadow: 5px 5px 5px  #fff;/*rgba(0,0,0,08)*/
+	background-color:#fff;
+	
+}
+
+/*=========================================================================================================================================================*/
+
+.content
+{
+	display:none;
+	height: 500px;
+	background-size: 100% 100%;
+	background-position:center center;
+	background-repeat: no-repeat;
+	position:absolute;
+	bottom:-550px;
+	left:10px;
+	box-shadow: 5px 5px 5px rgba #fff;/*rgba(0,0,0,08)*/
+	border:4px solid black;
+
+	
+}
+
+
+@media(max-width:1131px)
+{
+	.profilePic
+	{
+		position:absolute;
+		top:5px;
+		left:90px;
+	}
+	
+	.name
+	{
+		font-size: 32px;
+	}
+	
+ 	.content
+	{
+		 width:100%;
+		/*background-position:center center;
+		text-align:center; 
+		display:block;
+		height:100px;
+		
+		position:relative;
+		left:10%;
+		right:10%;
+		left:10%;
+		top:10%;*/ 
+	} 
+}
+
+@media(max-width:888px)
+{
+	.profilePic
+	{
+		position:absolute;
+		top:5px;
+		left:20px;
+	}
+}
+
+@media(max-width:719px)
+{
+
+	.options li:hover
+	{
+		font-size: 17px;
+	}
+}
