@@ -1,0 +1,335 @@
+/*****************************************************************Mountain background Section(1)*****************************************************************/
+* {
+    box-sizing: border-box;
+}
+
+
+#logo
+{
+	display:block;
+	height:70px;
+	width:350px;
+	padding:0;
+	background-size:200px 100px;
+    background-repeat: no-repeat;
+	background-position:center;
+	/* border:2px solid green; */
+	background-image: url("resources/black.svg");
+}
+
+li >a:hover
+{
+	text-shadow:none;background-color:#fff;border-bottom:2px solid #F9007A;
+	text-decoration:none;
+}
+
+li >a
+{
+	color:black
+}
+
+
+#nav-bar-right-section
+{
+	/* border:2px solid purple; */
+	height:70px;
+	position:center center;
+}
+
+#mountain-background-section-1
+{
+	/* border:2px solid black; */
+	
+	height:550px;
+
+}
+
+#navigation-bar-part-1
+{
+	/* border:2px solid red; */
+	height:70px;
+	margin:0;
+	
+	
+}
+
+#navigation-bar-part-2
+{
+	height:480px;
+	background: url("resources/back.png"); 
+	background-repeat: no-repeat;
+	background-size:cover;
+	
+	/* border:2px solid orange */
+}
+
+
+.navbar .nav {
+    text-shadow: none;
+    padding: 10px;
+}
+
+
+.navbar .nav .nav-btn {
+    color: white;
+    margin-top: 4px;
+}
+/****************************************************************End Mountain background Section(1)*****************************************************************/
+
+/********************************************************************Start Co-founder Section(2)*****************************************************************/
+
+#co-founder-section-2
+{
+	height:550px;
+	background-color:#f3f6f8;
+}  
+
+#left-hand-part
+{
+	/* border:2px solid orange; */
+	height:550px
+}
+
+#top-text
+{
+	/* border:2px solid blue; */
+	 font-size: 68px;
+	line-height: 1.3 ; 
+	/* font-weight:5px; */
+	font-family:CordiaUPC;
+	color: #333333;
+	margin-top: 64px;
+	margin-left: 64px;
+	
+	/* margin-bottom: 20px; */
+    font-weight: 5px;
+    	
+}
+
+#bottom-text
+{
+	/* border:2px solid black; */
+	display:block;
+	font-size: 25px;
+	font-family:CordiaUPC;
+	margin-left: 64px;
+	line-height: 1;
+	
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#right-hand-content
+{
+	/* border:2px solid purple; */
+	height:535px;
+	margin-top: 64px;
+	
+}
+
+#right-hand-part
+{
+	/* border:2px solid red; */
+	height:550px
+
+}
+
+
+
+#picture-circle-1
+{
+	/* border:2px solid pink; */
+	display:block;
+	height:180px;
+	width:180px;
+	border-radius:50%;
+	background: url("resources/aaron.jpg"); 
+	background-repeat: no-repeat;
+	background-size:cover;
+	margin-top: 20px;
+	
+}
+
+#side-picture-text-top-1
+{
+	/* border:2px solid red; */
+	width:50%;
+	font-family:CordiaUPC;
+	margin-top: 20px;
+	font-size: 28px
+}
+
+#side-picture-text-top-2
+{
+	/* border:2px solid red; */
+	width:70%;
+	font-family:CordiaUPC;
+/* 	margin-top: 20px;*/
+	font-size: 25px;
+	line-height: 1;
+}
+
+#picture-circle-2
+{
+	/* border:2px solid pink; */
+/* 	display:block;
+ */	height:180px;
+	width:180px;
+	border-radius:50%;
+	background: url("resources/darren.jpg"); 
+	background-repeat: no-repeat;
+	background-size:cover;
+	margin-top: 20px;
+	
+}
+/********************************************************************End Co-founder Section(2)*****************************************************************/
+
+/********************************************************************Start our team Section(3)*****************************************************************/
+.our-team-header
+{
+	display:block;
+	/* border:2px solid red; */
+	font-family:CordiaUPC;
+	height:100px;
+	text-align:center;
+	font-size: 70px;
+	margin-top: 34px;
+}
+
+.team-section
+{
+	/* border:2px solid green; */
+	height:100%;
+	display: table;
+    table-layout: fixed; 
+	
+}
+
+#holder
+{
+	display:block;
+	/* border:2px solid yellow; */
+	width:33%;
+	height:200px;
+	text-align:center;
+	display: table;
+    table-layout: fixed; 
+	margin-top:20px;
+}
+
+#label
+{
+	font-family:CordiaUPC;
+	font-size:30px;
+	line-height: 0.5;
+	margin-top:10px
+}
+/*==================================================================Start Question section===================================================*/
+
+/*I have created a class of member and defined all it's properties, I have than created another class member-1-1  which is of type member
+  I want to inherit all the properties from member (code reuse) instead of having to redefine them in each member*/
+
+/* .member
+{
+	display:block;
+	margin-left: auto;
+    margin-right: auto;
+	height:200px;
+	width:200px;
+	border-radius:50%;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+.member-1-1
+{
+
+	background: url("resources/rafi.jpg"); 
+}
+
+.member-1-2
+{
+	background: url("resources/chloe.jpg"); 
+	
+} */
+/*==================================================================End Question section===================================================*/
+
+#member
+{
+	display:block;
+	margin-left: auto;
+    margin-right: auto;
+	height:200px;
+	width:200px;
+	border-radius:50%;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+/*===================Row 1===================*/
+.member-1-1
+{
+
+	background: url("resources/rafi.jpg"); 
+}
+
+.member-1-2
+{
+	background: url("resources/chloe.jpg"); 
+	
+}
+
+.member-1-3
+{
+	background: url("resources/seth.jpg"); 
+	
+}
+/*===================Row 2===================*/
+.member-2-1
+{
+
+	background: url("resources/josh.jpg"); 
+}
+
+.member-2-2
+{
+	background: url("resources/thobekile.jpg"); 
+	
+}
+
+.member-2-3
+{
+	background: url("resources/tyler.jpg"); 
+	
+}
+/*===================Row 3===================*/
+.member-3-1
+{
+
+	background: url("resources/russell.jpg"); 
+}
+
+.member-3-2
+{
+	background: url("resources/chad.jpg"); 
+	
+}
+
+.member-3-3
+{
+	background: url("resources/michael.jpg"); 
+	
+}
+/*===================Row 4===================*/
+.member-4-1
+{
+
+	background: url("resources/dan.jpg"); 
+}
+
+.member-4-2
+{
+	background: url("resources/andrew.jpg"); 
+	
+}
+/********************************************************************End our team Section(3)*****************************************************************/
+
