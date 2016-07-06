@@ -1,0 +1,36 @@
+
+.myDiv
+{
+	
+	display:block;
+	/* border:2px solid red; */
+	position:relative;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	text-align:center;
+	
+}
+
+ol
+{
+	list-style-type:none;
+}
+
+.curvers
+{
+	border-radius:5px;
+	border:1px dotted black;
+	box-shadow: 3px 3px grey;
+}
+
+.head
+{
+	display:block;
+	padding-top:130px;
+	/* border:2px solid green; */
+	text-align:center;
+	color:white;
+	text-shadow: 2px 2px 4px #000000;
+}

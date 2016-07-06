@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <link rel="stylesheet" href="index.css">
+  <body ng-app="groceryListApp">
+	<div class="head"> <h1>Welcome to my Grocery Store<h1></div>
+    <div  class="myDiv" ng-controller="GroceryListCtrl">
+	     <p>
+			<input class="curvers" ng-model="item_name" placeholder="item name">
+			<input class="curvers" ng-model="item_quantity" placeholder="item quantity">
+		</p>
+		<input  class="curvers" ng-model="search_box" placeholder="search item">
+		<button  class="curvers" ng-click="add_item()"> Add Item </button>
+		
+		<ol>
+			<li ng-repeat="item in grocery_List | filter:search_box">
+				<p>
+					{{item.item_Name+" : "+ item.item_Quantity +"  "}}  
+					<button class="curvers" ng-click="increaseItemCount(item)">+</button>  
+					<button class="curvers" ng-click="decreaseItemCount(item)">-</button> 
+				</p>
+				
+			</li>
+		</ol>
+	</div>
+	
+    <script src="angular.js"></script>
+    <script src="grocerylist.js"></script>
+  </body>
+</html>
