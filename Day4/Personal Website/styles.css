@@ -158,14 +158,14 @@ ul
 .options li  #eight:hover  .content
 {
 	display:block;
-	background-image: url("images/education.png");
+	background-image: url("images/s.png");
 }
 
 
 .options li  #nine:hover  .content
 {
 	display:block;
-	background-image: url("images/pi.png");
+	background-image: url("images/r.png");
 	
 }
 
@@ -267,8 +267,8 @@ a{
 	.profilePic
 	{
 		position:absolute;
-		top:5px;
-		left:20px;
+		/* top:5px; */
+		left:100px;
 	}
 }
 

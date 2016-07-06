@@ -36,8 +36,6 @@ function allUniqueCharacters(sentence)
 // One number 1-10 is missing. Return it!
 function missingNum(numbers) 
 {
-	
-	
 	for(var i=1;i<11;i++)
 	{
 		var found=0;
