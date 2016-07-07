@@ -1,0 +1,57 @@
+.lightbox-bg {
+	/* this should cover the entire screen with a transparent black background */
+	
+	
+	
+
+	/* position:fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0, .77); */
+  
+	/* background-color: rgba(0, 0, 0, 0.77); */
+
+}
+
+.lightbox-contents {
+	/* this should center the image on the screen on top of the background*/
+	/* border:2px solid red; */
+	/* display: block;
+    position:relative;
+	left:400px;
+	top:70px; */
+	
+	
+	padding-top:70px;
+	text-align:center;
+	
+	
+}
+
+.lightbox{
+	/* this should not be on the screen to start*/
+	/* visibility:hidden; */
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,.77);
+	
+	transform:translate(100%,0);
+	transition: all .9s
+	
+	
+
+}
+
+.isVisible {
+	/* this does exactly what it sounds like it does */
+ 
+	transform:translate(0%,0);
+	
+	/* visibility:visible; */
+}
