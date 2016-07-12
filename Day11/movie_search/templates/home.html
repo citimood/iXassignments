@@ -1,0 +1,12 @@
+
+<div >
+		    <div align="center" style="padding-top:10%;">
+				<p ><strong><h1>Movie Search Engine</h1></strong></p>
+				<input type="text"  ng-model="movie_searched"/><div style="margin:20px" class="login-btn btn btn-primary" ng-click="movie_search(movie_searched)">SEARCH</div>
+			</div>
+			<ol class="list" >
+				<li ng-repeat="movie in moviesArray" >
+					<a href="#/movie/{{movie.imdbID}}">{{  movie.Title }}</a>
+				</li>
+			</ol>
+</div>

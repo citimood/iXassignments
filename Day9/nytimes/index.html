@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body ng-app="nytimesApp">
+	<div ng-controller="MainCtrl">
+		<input ng-model="search_box" placeholder="search item"/>
+		<button ng-click="filter_reponse(search_box)">search</button>
+		
+		<div ng-repeat="element in articles">
+			<h3><a href="{{element.url}}">{{element.snippet}}</a></h3>
+		</div>
+	
+		
+	</div>
+
+	<script src="angular.js"></script>
+	<script src="nytimes.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+.color
+{
+	
+	background-color:#9eab9d;
+	display:block;
+}
+.list
+{
+	display:block;
+	padding-left:40%;
+
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+
+.gif
+{
+	border:2px solid #4b5c4a;
+	margin:10px; 
+	background-size:length;
+	height:300px;
+	width:300px;
+}
+
+ul
+{
+	list-style-type:none;
+	
+}

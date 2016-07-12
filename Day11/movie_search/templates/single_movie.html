@@ -1,0 +1,24 @@
+
+<div class="container-fluid" >
+	<div class="row" style="padding-top:10px">
+			
+			<div class="col-md-3 col-md-offset-1"  >
+				<img ng-src="{{movieArray.Poster }}"/>
+				<p><h4><strong style="color:red">Title:</strong> {{movieArray.Title }}</h4><p>
+				<p class="row"><h5><strong style="color:red">Plot:</strong> {{movieArray.Plot}}</h5></p>
+				<p><strong style="color:red">Released:</strong> {{movieArray.Released}}</p>
+				<p><strong style="color:red">Country:</strong> {{movieArray.Country}}</p>
+				<p><strong style="color:red">Actors:</strong> {{movieArray.Actors}}</p>
+				
+			</div>
+			
+			<div class="col-md-3 col-md-offset-2">
+				<ul class="list">
+					<li ng-repeat="gif in movieGif" >
+						<div  class="gif"  ng-style="{'background-image':'url({{gif.images.fixed_height.url}})'}"> </div>
+					</li>
+				</ul>
+			<div>
+	</div>
+	
+</div>
