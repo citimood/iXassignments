@@ -1,0 +1,66 @@
+
+<div class="home container">
+	
+	<!-- <div class="row error_message" ng-show="nagative_message">
+		<p class="error_text">Postive props only!</p>
+	</div> -->
+	
+	<div class="row alert alert-danger" ng-show="nagative_message==true && success_message==false ">
+		<strong>Danger!</strong> Postive props only!
+	</div>
+	
+	<div class="row alert alert-success" ng-show="success_message==true && nagative_message==false ">
+		<strong>Success!</strong> prop has been successful sent
+	</div>
+	
+	<div class="row">
+		<textarea class="form-control" rows="3" ng-model="newPropsValue"  ></textarea>
+	</div>
+	
+	<div class="row three_elements">
+		
+		<div class=" drop_down col-md-4">
+				<select class="form-control" ng-model="selectedBru" ng-options="bru.id for bru in brus"></select>
+		</div>
+		
+		<div align="right" class="right_buttons">
+			<button type="button" class="btn btn-primary" ng-click="refresh()" style="width:150px">Refresh </button> 
+			<button type="button" class="btn btn-primary" ng-click="validate(newPropsValue,selectedBru)">Validate and Send!</button>
+		</div>
+	</div>
+	
+	<div ng-repeat="prop in props track by $index" >
+		<div class="row props" align="center">
+		    <div>
+				<p style="color:red">@{{prop.receiver.first_name}}</p>
+				<h3>{{prop.text}}</h3>
+				
+			</div >
+			<div >
+				
+				<div class="col-sm-1 col-md-offset-5">
+					POSTED:
+					<!-- Jul12:30pm -->
+					{{time_set[$index]}}
+				</div>
+				
+				<div class="col-sm-1">
+					POSITIVITY:
+					{{prop.positivity_score}}
+				</div>
+				
+			</div>
+		</div>
+		<hr/>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</div>
+

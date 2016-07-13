@@ -1,0 +1,99 @@
+.red_bar
+{
+/* 	border:2px solid black;
+ */	position:relative;
+	left:0;
+	right:0;
+	height:70px;
+	background-color:red;
+	display:block;
+	
+}
+
+.bar_logo
+{
+	color:white;
+}
+
+ol
+{
+	padding-top:100px;
+}
+
+.home
+{
+	padding-top:50px;
+}
+
+.three_elements
+{
+	/* border:2px solid red; */
+	height:100px;
+	margin-top:10px;
+} 
+
+.drop_down
+{
+	/* border:2px solid blue; */
+	padding:0;
+}
+
+.right_buttons
+{
+	/* border:2px solid green; */
+}
+
+.error_message
+{
+	/* border:2px solid red; */
+	color:red;
+	background-color:#ffb2b2;
+	height:50px;
+	margin-bottom:10px;
+	
+}
+
+.error_text
+{
+	margin-left:10px;
+	margin-top:15px;
+}
+
+.props
+{
+	height:120px;
+	overflow: auto;
+	margin:40px; 
+	/* border:2px solid blue; */
+}
+.posted_positivity
+{
+	/* border:2px solid purple; */
+	position:absolute;
+	left:510px; 
+	padding-right:50px;
+	overflow: auto;
+	width:100%;
+	
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+	width:60%;
+}
+
+.me_text
+{
+	color:red;
+	font-size: 35px;
+	font-weight: bold;
+	font-family: Helvetica;
+	text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+	
+}
