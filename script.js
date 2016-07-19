@@ -25,7 +25,7 @@ app.controller('MainCtrl', function($scope, $http)
 	    params: 
 		{
 	    	callback: "JSON_CALLBACK",
-			//access_token:"3516238728.9163389.67234d5dad884bea8cd6eb7d46c8d6ce",	
+			access_token:"3516238728.9163389.67234d5dad884bea8cd6eb7d46c8d6ce",	
 			
 			
 			client_id:"91633892b9c746aca617c43c03686391",
