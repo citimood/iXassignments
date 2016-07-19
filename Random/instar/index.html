@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+  <script src="./script.js"></script>
+	<title>Instamood</title>
+</head>
+<body ng-app="Instamood">
+	<div class="container-fluid" ng-controller="MainCtrl" style="background-color:#c3cfd7">
+		<div class="container-fluid" >
+			<div class="login-screen" ng-hide="hasToken" >
+				<!-- <div ng-hide="hasToken"><img ng-src="images/welcome.jpg" /></div> -->
+				<div  id="up" class="login-btn btn container-fluid" ng-hide="hasToken" ng-click="getInstaPics()">
+					  
+					  <a href="https://api.instagram.com/oauth/authorize/?client_id=91633892b9c746aca617c43c03686391&redirect_uri=http://localhost:8000&response_type=code" class="btn btn-info btn-lg btn-block">
+						<i class="fa fa-instagram"></i> Log in with Instagram
+					  </a>
+				</div>
+			</div>
+			<div ng-show="hasToken" >
+				<ul class="container">
+					<div class="stat-box" >
+					<h4 >
+						<p><strong style="color:blue">Ego Score:</strong> {{((user_has_liked/length).toFixed(2))*100}}%</p>
+						<p><strong style="color:blue">Popularity:</strong>  {{(total_likes/length).toFixed(2)}}</p>
+						<p><strong style="color:blue">Active Days:</strong>  {{most_freq_day}}</p>
+						<p><strong style="color:blue">Brevity:</strong> {{(total_caption_length/length).toFixed(2)}}</p>
+						<p><strong style="color:blue">Visibility Thirst:</strong>  {{(total_hash_tags/length).toFixed(2)}}</p>
+					</h4>
+					</div> 
+				
+					<li ng-repeat="pic in picArray track by $index" >
+						<!-- <div class="image "><img ng-src="{{pic.images.low_resolution.url}}"></div> -->
+						<div class="image " style="background-image:url('{{pic.images.low_resolution.url}}')"></div>
+						<div class="caption content-screen">
+							<p><h3><strong style="color:#264355">Caption : </strong>{{pic.caption.text}} </h3></P>
+							<p><h3><strong style="color:#264355">Score : </strong>{{user_scores[$index] }}</h3></P>
+						</div>
+							
+					</li>
+					<div class="stat-box"><h3><strong style="color:Green">Overall Postive Score : </strong>{{overal_score.toFixed(2)}} </h3></div>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
