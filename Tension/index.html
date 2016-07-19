@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html >
+  <head>
+   
+	<title>Let's Chat - South Africa</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href = "css/animate.css" rel = "stylesheet">
+
+	
+   
+  </head>
+  <body ng-app="tensionApp" ng-controller="AppController">
+  
+		<div class="navbar-fixed-top bar" >
+				<a href="#/channels"><div  class="bar_logo col-md-2 col-md-offset-1"><h2><i>Let's Chat</i></h2> </div></a>
+				<div ng-click="sign_out()"  class="bar_logo  col-md-2 col-md-offset-7"><h2><i>Sign out</i></h2></div>
+
+		</div>
+		<div class="space "></div>
+		 <div ng-view ></div>
+		
+		<!-- Firebase -->
+		<script src="https://www.gstatic.com/firebasejs/3.0.3/firebase.js"></script>
+		<script src="script/angular.js"></script><!--you might need CDN here-->
+		<script src="script/angular-route.js"></script><!--you might need CDN here-->
+		<!-- AngularFire -->
+		<script src="script/angularfire.min.js"></script>
+		<script src="script/angular_script.js"></script>
+		
+		<script>
+		  // Initialize Firebase
+		  
+		  var config = {
+			apiKey: "AIzaSyD1tlK2Sd6oGkI-e53__u_IGOfmlZsJZ0g",
+			authDomain: "tension-36514.firebaseapp.com",
+			databaseURL: "https://tension-36514.firebaseio.com",
+			storageBucket: "",
+		  };
+		  /*
+		  var config = {
+			apiKey: "AIzaSyAOuUXhY32MvhGZGvS-9Pw_Xa7x2tKeG3g",
+			authDomain: "ixtension2.firebaseapp.com",
+			databaseURL: "https://ixtension2.firebaseio.com",
+			storageBucket: "ixtension2.appspot.com",
+		  };
+		  */
+		  firebase.initializeApp(config);
+		</script>
+	</body>
+</html>
