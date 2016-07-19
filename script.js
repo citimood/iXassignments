@@ -18,7 +18,7 @@ app.controller('MainCtrl', function($scope, $http)
 
   /* $scope.getInstaPics = function() { */
 	  var path = "/users/self/media/recent";
-	  var mediaUrl = " https://api.instagram.com/oauth/access_token";//INSTA_API_BASE_URL + path;//
+	  var mediaUrl = INSTA_API_BASE_URL + path;//" https://api.instagram.com/oauth/access_token";//
 	  $http({
 	    method: "POST",
 	    url: mediaUrl,
