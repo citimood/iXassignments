@@ -20,12 +20,12 @@ app.controller('MainCtrl', function($scope, $http)
 	  var path = "/users/self/media/recent";
 	  var mediaUrl = " https://api.instagram.com/oauth/access_token";//INSTA_API_BASE_URL + path;//
 	  $http({
-	    method: "JSONP",
+	    method: "POST",
 	    url: mediaUrl,
 	    params: 
 		{
-	    	callback: "JSON_CALLBACK",
-			access_token:"3516238728.9163389.67234d5dad884bea8cd6eb7d46c8d6ce",	
+	    	//callback: "JSON_CALLBACK",
+			//access_token:"3516238728.9163389.67234d5dad884bea8cd6eb7d46c8d6ce",	
 			
 			
 			client_id:"91633892b9c746aca617c43c03686391",
