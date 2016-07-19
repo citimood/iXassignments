@@ -1,0 +1,32 @@
+
+<div class="alert_message container   ">
+	<div class="row alert alert-danger col-md-4 col-md-offset-4 animated wobble" ng-show="nagative_message==true ">
+		<strong>Incorrect Login!</strong>
+	</div>
+
+</div>
+	
+
+
+<div  class="col-md-4 col-md-offset-4 animated zoomIn">
+	<h2 align="center" class=" heading "><i>Sign in</i></h2>
+	<form ng-submit="login()" class="form-group" >
+	  
+	  <div class="form-group">
+		<label for="email">Email address:</label>
+		<input  placeholder="Enter Email" type="email" class="form-control" ng-model="email"/>
+	  </div>
+	  
+	  <div class="form-group">
+		<label >Password:</label>
+		<input placeholder="Enter Password" class="form-control" ng-model="password" type="password" />
+	  </div>
+	  
+	  <div class="checkbox">
+		<label><input type="checkbox"> Remember me</label>
+	  </div>
+  
+	  <!-- <a href="#/channels"> --><button type="submit" class="btn btn-default"  class="form-group">Sign in</button><!-- </a> -->
+	  <p class="message">Not registered? <a href="#/signup">Create an account</a></p>
+	</form>
+</div>
