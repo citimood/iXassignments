@@ -31,7 +31,7 @@ app.controller('MainCtrl', function($scope, $http)
 			client_id:"91633892b9c746aca617c43c03686391",
 			client_secret:"9de85d251521430fa510b5c2476e4c86",
 			grant_type:"authorization_code",
-			redirect_uri:"http://localhost:8000",
+			redirect_uri:"https://mkhskh003.github.io/iXassignments/",
 			code:code, 
 			
 	    }
